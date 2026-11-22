@@ -9,3 +9,6 @@ import maya.OpenMayaUI as omui
 
 class ArrayMakerGUI(QtWidgets.QDialog):
     pass
+
+    def __init__(self):
+        super().__init__()
