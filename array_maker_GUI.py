@@ -8,7 +8,18 @@ import maya.OpenMayaUI as omui
 
 
 class ArrayMakerGUI(QtWidgets.QDialog):
-    pass
 
     def __init__(self):
         super().__init__()
+
+    def create_layout(self):
+        pass
+
+    def _form_ui(self):
+        pass
+
+    def create_connections(self):
+        pass
+
+    def create(self):
+        pass
